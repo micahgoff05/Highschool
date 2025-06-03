@@ -1,0 +1,10 @@
+//Physic Tester
+import javax.swing.*;
+public class physicsTester{
+   public static void main(String[] args){
+      Physics s1 = new Physics();
+      //s1.findv1();
+      s1.findx(0.0, 24.4, 1.63, null);
+      System.out.println(s1.findx(0.0, 24.4, 1.63, null));
+   }//end main
+}//end physicsTester
